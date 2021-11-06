@@ -8,7 +8,7 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
     justify-content: center;
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url(Images/pattern-background-desktop.svg);
     /* text-align: center; */
     align-items: center;
     background-color: hsl(225, 100%, 94%);
