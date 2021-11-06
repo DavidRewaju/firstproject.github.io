@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    /* text-align: center; */
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.center {
+
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+.dollar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.ch-btn{
+    border: none;
+    background: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.image-annual {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.image-annual > img{
+    width: 40px;
+    margin-right: 12px;
+}
+
+
+.annual h5 {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.annual p {
+    /* background-color: yellow; */
+    /* margin-bottom: 5px; */
+    color: grey;
+}
+
+
+.order {
+    text-align: center;
+}
+
+.order > img{
+    border-radius: 20px 20px 0 0;
+    width: 400px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.proceed-btn { 
+    background-color: hsl(245, 75%, 52%);
+    width: 300px;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    border:none;
+    box-shadow: 2px 21px 20px -12px rgba(34,36,41,0.5);
+-webkit-box-shadow: 2px 21px 20px -12px rgba(34,36,41,0.5);
+-moz-box-shadow: 2px 21px 20px -12px rgba(34,36,41,0.5);
+}
+
+.cancel-btn {
+    background: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 375px){
+    body {
+        font-family: 'Red Hat Display', sans-serif;
+        display: flex;
+        justify-content: center;
+        background-image: url(images/pattern-background-desktop.svg);
+        /* text-align: center; */
+        align-items: center;
+        background-color: hsl(225, 100%, 94%);
+        height: 100vh;
+        background-repeat: no-repeat;
+        
+    }
+    .center {
+
+        background-color: white;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        
+    }
+
+    .order > img{
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+    }
+
+    .proceed-btn { 
+        background-color: hsl(245, 75%, 52%);
+        width: 250px;
+        color: white;
+        padding: 10px 0;
+        border-radius: 8px;
+        border:none;
+    }
+    .dollar {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(225, 100%, 98%);
+        width: 240px;
+        margin: 10px auto;
+        padding: 10px 10px;
+        border-radius: 8px;
+    }
+}
